@@ -1,0 +1,235 @@
+.active {
+  background: #eaeae6;
+}
+
+.timeline li {
+  width: 66px;
+  height: 66px;
+  line-height: 66px;
+  font-size: 13px;
+  font-family: arial, calibri, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  background: #ff6600;
+  display: inline-block;
+  color: white;
+  position: relative;
+  margin: 0px 20px;
+}
+
+.active {
+  background: #ff6600;
+}
+
+.active ~ li {
+  background: grey;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.active {
+  color: #000;
+  background: none;
+}
+
+.active {
+  background: #eaeae6;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.active {
+  color: #000;
+  background: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+.active {
+  color: #000!important;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.active {
+  color: #000;
+  background: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+* {
+  outline: none;
+}
+
+.active {
+  color: #000!important;
+}
+

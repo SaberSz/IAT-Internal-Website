@@ -1,0 +1,54 @@
+.slider-dots {
+  background-color: rgb(0,0,140) !important;
+  border-radius: 50% !important;
+  width: 10px !important;
+  height: 10px !important;
+  opacity: 1 !important;
+  border-color: rgba(255,255,255,0);
+  border-top: 0px !important;
+  border-bottom: 0px !important;
+}
+
+.carousel-indicators > li:hover {
+  background-color: #00ccff !important;
+}
+
+.text-center {
+}
+
+.copyright-color {
+  color: black;
+  font-weight: normal;
+  margin: 0 auto;
+  font-family: 'ABeeZee';
+}
+
+.card.h-100 {
+  /*box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);*/
+  box-shadow: box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+  border-radius: 20px;
+  /*box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);*/
+}
+
+.image-hover-me > .a > .img {
+  /*overflow: hidden;*/
+}
+
+.image-hover-me {
+  transition: transform .4s;
+}
+
+.image-hover-me:hover {
+  transform: scale(1.25);
+  transform-origin: 50% 50%;
+}
+
+.image-hover-me-div {
+  overflow: hidden;
+}
+
+.ideology::-webkit-scrollbar {
+  display: none;
+}
+

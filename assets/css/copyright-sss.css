@@ -1,0 +1,11 @@
+.copyright {
+  /*margin: 60px auto 0 auto;*/
+}
+
+.copyright-inner {
+  background-color: #f8f9fa;
+  padding: 30px;
+  color: rgb(0,0,0);
+  font-family: 'ABeeZee';
+}
+
