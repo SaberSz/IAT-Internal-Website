@@ -13,7 +13,7 @@
       "allowedRoles": ["authenticated"]
         },
         {
-            "route": "/automation-idea.html",
+            "route": "/unauthenticated.html",
       "allowedRoles": ["authenticated"]
         },
         {
