@@ -13,7 +13,7 @@
       "allowedRoles": ["authenticated"]
         },
         {
-            "route": "/unauthenticated.html",
+            "route": "/automation-idea.html",
       "allowedRoles": ["authenticated"]
         },
         {
@@ -25,12 +25,12 @@
     "platformErrorOverrides": [
     {
       "errorType": "NotFound",
-      "serve": "/custom 401.html"
+      "serve": "/unauthenticated.html"
     },
     {
       "errorType": "Unauthenticated",
       "statusCode": "401",
-      "serve": "/custom 401.html"
+      "serve": "/unauthenticated.html"
     }
   ]
 
