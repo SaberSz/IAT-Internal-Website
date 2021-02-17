@@ -15,7 +15,12 @@
         {
             "route": "/automation-idea.html",
       "allowedRoles": ["authenticated"]
-        }
+        },
+        {
+      "route": "/.auth/complete",
+      "serve": "/index.html",
+      "statusCode": 200
+    }
     ],
     "platformErrorOverrides": [
     {
