@@ -1,11 +1,24 @@
 
-$('body').on('click','a[href^="#"]',function(event){
+$('body').on('click','.scroller-link',function(event){
     event.preventDefault();
     var target_offset = $(this.hash).offset() ? $(this.hash).offset().top : 0;
     //change this number to create the additional off set        
     var customoffset = 112;
     $('html, body').animate({scrollTop:target_offset - customoffset}, 500);
 });
+
+// jQuery(document).ready(function($) {
+//     $('.res-scroll li a').click(function(e){
+//         e.preventDefault();
+//         // e.stopImmediatePropagation();
+//       $('html, body').stop();
+//     });
+// });
+// $('#myTab2 li a').click(function(e){
+  
+//   
+//   $(this).tab('show');
+// });
 
 (function($) {
     

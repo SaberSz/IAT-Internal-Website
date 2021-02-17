@@ -4,39 +4,61 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>IAT Site</title>
+    <title>Intelligent Automation - Home</title>
+    <meta property="" content="">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee:400,400i">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Clicker+Script">
+    <link rel="stylesheet" href="assets/css/Conv_BwModelicaSS01-Regular.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Petit+Formal+Script">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/Animated-numbers-section.css">
     <link rel="stylesheet" href="assets/css/Animated-Type-Heading.css">
+    <link rel="stylesheet" href="assets/css/Animation-Cards-1.css">
+    <link rel="stylesheet" href="assets/css/Animation-Cards.css">
     <link rel="stylesheet" href="assets/css/Article-Clean.css">
     <link rel="stylesheet" href="assets/css/Article-Dual-Column.css">
     <link rel="stylesheet" href="assets/css/Article-List.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Full-Page-Image-Slider-Header-Reponsive.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Half-Page-Image-Slider-Header.css">
-    <link rel="stylesheet" href="assets/css/Bold-BS4-Jumbotron-with-Particles-js-1.css">
     <link rel="stylesheet" href="assets/css/Bold-BS4-Jumbotron-with-Particles-js.css">
+    <link rel="stylesheet" href="assets/css/Boostrap-Tabs.css">
     <link rel="stylesheet" href="assets/css/cards.css">
     <link rel="stylesheet" href="assets/css/copyright-sss-1.css">
     <link rel="stylesheet" href="assets/css/copyright-sss.css">
     <link rel="stylesheet" href="assets/css/dh-row-text-image-right-responsive.css">
+    <link rel="stylesheet" href="assets/css/Feature-Section-MD.css">
     <link rel="stylesheet" href="assets/css/Features-Clean.css">
     <link rel="stylesheet" href="assets/css/Footer-Clean.css">
+    <link rel="stylesheet" href="assets/css/Growing-Search-Bar-Animated-Text-Input.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/css/lightbox.min.css">
     <link rel="stylesheet" href="assets/css/Lightbox-Gallery.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Dropdown-List-Item.css">
     <link rel="stylesheet" href="assets/css/Navigation-Clean.css">
     <link rel="stylesheet" href="assets/css/News-Cards.css">
+    <link rel="stylesheet" href="assets/css/NZSearchFilterClear.css">
     <link rel="stylesheet" href="assets/css/Parallax-Scroll-Effect.css">
+    <link rel="stylesheet" href="assets/css/Search-Input-responsive.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu-1.css">
+    <link rel="stylesheet" href="assets/css/Sidebar-Menu.css">
     <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/Swiper-Slider-Card-For-Blog-Or-Product-2.css">
+    <link rel="stylesheet" href="assets/css/Swiper-Slider-Card-For-Blog-Or-Product.css">
+    <link rel="stylesheet" href="assets/css/Team-Grid.css">
     <link rel="stylesheet" href="assets/css/Team-with-rotating-cards.css">
     <link rel="stylesheet" href="assets/css/Timeline-1.css">
     <link rel="stylesheet" href="assets/css/Timeline-F19687.css">
     <link rel="stylesheet" href="assets/css/Video-Parallax-Background-v2.css">
+<link rel = "icon" type = "image/png" href = "assets/img/LTI_Lets_solve_logo_png.png">
 </head>
 
 <body style="margin-top: 0px;background: rgb(248,249,250);">
@@ -66,57 +88,97 @@
         </div>
     </nav>
     <div data-bs-parallax-bg="true" style="background: url(&quot;assets/img/wp3610525-automation-wallpapers.jpg&quot;) center / cover;max-height: 700px;height: 500px;"></div>
-    <div class="container" style="max-width: 1140px;">
-        <h1 class="my-4" style="color: #4e4a4a;padding: 1rem 0 1rem 0;">Case Studies</h1>
+    <div class="container" style="max-width: 1140px;font-family: Conv_BwModelicaSS01-Regular;">
         <div class="row">
+            <div class="col">
+                <h1 class="my-4" style="color: #4e4a4a;padding: 1rem 0 1rem 0;font-family: Conv_BwModelicaSS01-Regular;">Case Studies</h1>
+            </div>
+            <div class="col d-xl-flex justify-content-xl-end">
+                <div class="d-flex justify-content-center h-100">
+                    <div class="searchbar"><input type="text" id="myInput" class="search_input" placeholder="Search..." onkeyup="searchCards()"><a class="search_icon" href="#"><i class="fas fa-search"></i></a></div>
+                </div>
+            </div>
+            <div class="col-xl-3 d-xl-flex align-items-xl-center"><select class="custom-select" style="margin-top: auto;margin-bottom: auto;" onchange="filterCards(this.value)"><option value="All" selected="">All</option><option value="BFS">BFS</option><option value="Insurance">Insurance</option><option value="Manufacturing">Manufacturing</option></select></div>
+        </div>
+        <div class="row d-xl-flex flex-wrap justify-content-xl-start" id="myUL">
             <div class="col-sm-6 col-lg-4 mb-4">
                 <div class="card h-100"><a href="#"><img class="img-fluid" src="assets/img/0.jpg"></a>
                     <div class="card-body">
                         <h4 class="card-title">Case Study 1</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Read more</a></div>
+                        <h6 class="text-muted card-subtitle mb-2">BFS</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.sdfsadfsdafasdfasdfasdfasdfasdfasdfasdfasdfadsfasdf</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 mb-4">
                 <div class="card h-100"><a href="#"><img class="img-fluid" src="http://placehold.it/700x400"></a>
                     <div class="card-body">
                         <h4 class="card-title">Case Study 2</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Read more</a></div>
+                        <h6 class="text-muted card-subtitle mb-2">Manufacturing</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 mb-4">
                 <div class="card h-100"><a href="#"><img class="img-fluid" src="http://placehold.it/700x400"></a>
                     <div class="card-body">
                         <h4 class="card-title">Case Study 3</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Read more</a></div>
+                        <h6 class="text-muted card-subtitle mb-2">Insurance</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
                 </div>
             </div>
-        </div>
-        <div class="row">
             <div class="col-sm-6 col-lg-4 mb-4">
                 <div class="card h-100"><a href="#"><img class="img-fluid" src="http://placehold.it/700x400"></a>
                     <div class="card-body">
                         <h4 class="card-title">Case Study 4</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Read more</a></div>
+                        <h6 class="text-muted card-subtitle mb-2">Insurance</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 mb-4">
                 <div class="card h-100"><a href="#"><img class="img-fluid" src="http://placehold.it/700x400"></a>
                     <div class="card-body">
                         <h4 class="card-title">Case Study 5</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Read more</a></div>
+                        <h6 class="text-muted card-subtitle mb-2">Insurance</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
                 </div>
             </div>
             <div class="col-sm-6 col-lg-4 mb-4">
                 <div class="card h-100"><a href="#"><img class="img-fluid" src="http://placehold.it/700x400"></a>
                     <div class="card-body">
                         <h4 class="card-title">Case Study 6</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Read more</a></div>
+                        <h6 class="text-muted card-subtitle mb-2">Manufacturing</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card h-100"><a href="#"><img class="img-fluid" src="http://placehold.it/700x400"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">Case Study 7</h4>
+                        <h6 class="text-muted card-subtitle mb-2">Insurance</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-lg-4 mb-4">
+                <div class="card h-100"><a href="#"><img class="img-fluid" src="http://placehold.it/700x400"></a>
+                    <div class="card-body">
+                        <h4 class="card-title">Case Study 8</h4>
+                        <h6 class="text-muted card-subtitle mb-2">BFS</h6>
+                        <p class="card-text" style="color: rgb(77,74,74);">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p>
+                    </div>
+                    <div class="card-footer bg-transparent border-light"><a href="#">Read more</a></div>
                 </div>
             </div>
         </div>
@@ -164,11 +226,16 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
+    <script src="assets/js/-Animated-numbers-section-BS4-.js"></script>
+    <script src="assets/js/Animated-numbers-section.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/Bold-BS4-Jumbotron-with-Particles-js.js"></script>
+    <script src="assets/js/filter%20cards.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.8.2/js/lightbox.min.js"></script>
     <script src="assets/js/scroll-me.js"></script>
+    <script src="assets/js/Sidebar-Menu.js"></script>
+    <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>
     <script src="assets/js/Video-Parallax-Background-v2.js"></script>
 </body>
 

@@ -1,0 +1,67 @@
+.wrapper-numbers {
+  color: #fff;
+  background: rgb(0,0,140);
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);
+  background: linear-gradient(to right, rgb(27,27,79), rgb(6,6,71));
+  padding: 60px 0 45px;
+  text-align: center;
+  font-size: 16px;
+  overflow: hidden;
+}
+
+.header-numbers {
+  margin-bottom: 40px;
+}
+
+.wrapper-numbers h1, .wrapper-numbers h2, .wrapper-numbers h3, .wrapper-numbers h4 {
+  margin: 0 0 15px;
+  color: #fff;
+}
+
+.count, .countup i {
+  font-size: 50px;
+  text-shadow: 0 1px 3px rgba(0,0,0,.5), 0 4px 20px rgba(0,0,0,.5);
+  line-height: 1;
+}
+
+.sup {
+  font-size: 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.column {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bot-store-headings {
+  text-shadow: 0 1px 3px rgba(0,0,0,.5), 0 4px 20px rgba(0,0,0,.5);
+}
+
+.idea-points > li {
+  margin-bottom: 0.8rem;
+}
+
+.py-4-5 {
+  padding-top: 3rem!important;
+  padding-bottom: 1rem!important;
+}
+
+#clients > .carousel-item {
+  height: 100px;
+}
+
+#carousel-2 .carousel-item {
+  height: calc(80vh - 112px)!important;
+  padding-right: 20px;
+  /*backdrop-filter: blur(4px);*/
+  /*background-color: rgba(255,255,255,0.23);*/
+  /*background-image: linear-gradient(135deg, #dfe9f3 10%, #ffffff 100%);*/
+  /*display: none;*/
+}
+
+.search_input::-webkit-input-placeholder {
+  color: rgb(216,216,216);
+}
+

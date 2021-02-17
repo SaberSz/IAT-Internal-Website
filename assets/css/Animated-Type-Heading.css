@@ -52,3 +52,72 @@
   display: none;
 }
 
+.waves-effect:hover .heading-fitur {
+  font-weight: 500;
+}
+
+body > section {
+  scroll-snap-align: start;
+  scroll-padding: 112px;
+}
+
+.blog-slider__content a {
+  color: rgb(0,0,140);
+  font-weight: 500;
+  font-size: 13px;
+}
+
+.swiper-pagination-bullet-active {
+  background: rgb(0,0,140)!important;
+}
+
+.cs-markers {
+  width: auto;
+}
+
+.cs-arrows-prev, .cs-arrows-next {
+  height: 20px;
+  width: 20px;
+  /*outline: black!important;*/
+  background-size: 100%, 100% !important;
+  border-radius: 50% !important;
+  /*border: 1px solid black !important;*/
+  /*background-image: none !important;*/
+}
+
+.cs-arrows-next:after {
+  content: '>';
+  font-size: 35px;
+  color: rgb(0,0,140);
+  margin-right: -2rem;
+}
+
+.cs-arrows-prev:after {
+  content: '<';
+  font-size: 35px;
+  color: rgb(0,0,140);
+  margin-left: -2rem;
+  position: absolute;
+}
+
+.resources-cards p {
+  color: #232323;
+  font-weight: 500;
+}
+
+.resources-cards a {
+  background: rgb(0,0,140);
+  color: rgb(255,255,255);
+  /*max-height: 36px;*/
+  /*font-size: 16px;*/
+  font-family: ABeeZee, sans-serif;
+  border-style: none;
+  box-shadow: 0 3px 15px rgba(0,0,140,0.7);
+}
+
+.resources-cards a:hover, .resources-cards a:focus {
+  transform: translate3d(0px,0px,0.15rem);
+  box-shadow: 0 3px 15px rgba(0,0,140);
+  background-color: rgb(0,0,140);
+}
+
