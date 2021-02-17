@@ -1,0 +1,32 @@
+{
+    "routes":[
+        {
+            "route": "/",
+      "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/index.html",
+      "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/case-studies-list.html",
+      "allowedRoles": ["authenticated"]
+        },
+        {
+            "route": "/automation-idea.html",
+      "allowedRoles": ["authenticated"]
+        }
+    ],
+    "platformErrorOverrides": [
+    {
+      "errorType": "NotFound",
+      "serve": "/custom 401.html"
+    },
+    {
+      "errorType": "Unauthenticated",
+      "statusCode": "401",
+      "serve": "/custom 401.html"
+    }
+  ]
+
+}
