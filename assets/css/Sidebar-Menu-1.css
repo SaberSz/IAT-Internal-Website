@@ -1,5 +1,11 @@
 body {
   overflow-x: hidden;
+  font-family: 'Bw Modelica';
+  font-weight: 500;
+  scroll-behavior: smooth;
+  background: rgb(248,249,250);
+  margin-top: 0px;
+  scroll-snap-type: y mandatory;
 }
 
 #wrapper {

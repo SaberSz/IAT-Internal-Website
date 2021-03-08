@@ -8,6 +8,8 @@
     <meta property="" content="">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee:400,400i">
+    <link rel="stylesheet" href="assets/css/Bw%20Modelica.css">
+    <link rel="stylesheet" href="assets/css/Bw%20Modelica%20LTI.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Clicker+Script">
     <link rel="stylesheet" href="assets/css/Conv_BwModelicaSS01-Regular.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
@@ -60,6 +62,7 @@
     <link rel="stylesheet" href="assets/css/Timeline-F19687.css">
     <link rel="stylesheet" href="assets/css/Video-Parallax-Background-v2.css">
 <link rel = "icon" type = "image/png" href = "assets/img/LTI_Lets_solve_logo_png.png">
+<script src="/js/filter cards.js"> </script>
 </head>
 
 <body style="scroll-behavior: smooth;background: rgb(248,249,250);margin-top: 0px;scroll-snap-type: y mandatory;">
@@ -70,26 +73,33 @@
                 <ul class="nav navbar-nav ml-auto">
                     <li class="nav-item"><a class="nav-link active nav-bar-links" href="index.html">Home</a></li>
                     <li class="nav-item dropdown multilevel"><a class="dropdown-toggle nav-link nav-bar-links" data-toggle="dropdown" aria-expanded="false" href="#">Industries</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="#">Banking &amp; Financial Services<br></a><a class="dropdown-item" href="#">Insurance<br></a><a class="dropdown-item" href="#">Energy &amp; Utilities<br></a><a class="dropdown-item" href="#">CPG &amp; Retail</a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="bfs-industries.html">Banking &amp; Financial Services<br></a><a class="dropdown-item disabled" href="#">Insurance<br></a><a class="dropdown-item disabled" href="#">Energy &amp; Utilities<br></a>
                             <a
-                                class="dropdown-item" href="#">Hi-Tech</a><a class="dropdown-item" href="#">Life Sciences<br></a><a class="dropdown-item" href="#">Media &amp; Entertainment<br></a><a class="dropdown-item" href="#">Manufacturing<br></a></div>
+                                class="dropdown-item disabled" href="#">CPG &amp; Retail</a><a class="dropdown-item disabled" href="#">Hi-Tech</a><a class="dropdown-item disabled" href="#">Life Sciences<br></a><a class="dropdown-item disabled" href="#">Media &amp; Entertainment<br></a><a class="dropdown-item disabled"
+                                    href="#">Manufacturing<br></a></div>
                     </li>
                     <li class="nav-item dropdown multilevel"><a class="dropdown-toggle nav-link nav-bar-links" data-toggle="dropdown" aria-expanded="false" href="#">Services &amp; Offerings</a>
                         <div class="dropdown-menu">
                             <div class="nav-item dropleft dropdown-item"><a data-toggle="dropdown" aria-expanded="false" class="nav-bar-links" href="#" style="color: #37434d;text-decoration: none;">Advisory</a>
-                                <div class="dropdown-menu"><a class="dropdown-item" href="#">Process Discovery</a><a class="dropdown-item" href="#">CoE Setup</a><a class="dropdown-item" href="#">Platform Selection</a><a class="dropdown-item" href="#">Program Health Assessment</a></div>
-                            </div><a class="dropdown-item" href="#">End to End Implementations</a><a class="dropdown-item" href="#">Value Added Support Services</a><a class="dropdown-item" href="#">Commercial &amp; Engagement Models</a><a class="dropdown-item"
-                                href="#">Core Competency</a><a class="dropdown-item" href="#">Products &amp; Platforms</a><a class="dropdown-item" href="#">Business Solutions</a><a class="dropdown-item" href="#">Accelerators &amp; Frameworks</a></div>
+                                <div class="dropdown-menu"><a class="dropdown-item disabled" href="#">Process Discovery</a><a class="dropdown-item disabled" href="#">CoE Setup</a><a class="dropdown-item disabled" href="#">Platform Selection</a><a class="dropdown-item disabled"
+                                        href="#">Program Health Assessment</a></div>
+                            </div><a class="dropdown-item disabled" href="#">End to End Implementations</a><a class="dropdown-item disabled" href="#">Value Added Support Services</a><a class="dropdown-item disabled" href="#">Commercial &amp; Engagement Models</a>
+                            <a
+                                class="dropdown-item" href="#our-cap">Core Competency</a><a class="dropdown-item disabled" href="#">Products &amp; Platforms</a><a class="dropdown-item" href="#bus-solns">Business Solutions</a>
+                                <div class="nav-item dropleft dropdown-item"><a data-toggle="dropdown" aria-expanded="false" class="nav-bar-links" href="#" style="color: #37434d;text-decoration: none;">Accelerators &amp; Frameworks<br></a>
+                                    <div class="dropdown-menu"><a class="dropdown-item" href="dashboard.html">Intelligent Bot <br>Governance Dashboard<br></a></div>
+                                </div>
+                        </div>
                     </li>
                     <li class="nav-item dropdown multilevel"><a class="dropdown-toggle nav-link nav-bar-links" data-toggle="dropdown" aria-expanded="false" href="#">Resources</a>
-                        <div class="dropdown-menu"><a class="dropdown-item" href="case-studies-list.html" target="_blank">Case Studies</a><a class="dropdown-item scroller-link" href="#resrouces-section">Point of Views<br></a><a class="dropdown-item scroller-link" href="#resrouces-section">Whitepapers<br></a>
+                        <div class="dropdown-menu"><a class="dropdown-item" href="case-studies-list.html">Case Studies</a><a class="dropdown-item scroller-link" href="#resrouces-section">Point of Views<br></a><a class="dropdown-item scroller-link" href="#resrouces-section">Whitepapers<br></a>
                             <a
-                                class="dropdown-item scroller-link" href="#resrouces-section">Use Cases<br></a>
+                                class="dropdown-item" href="use-cases.html">Use Cases<br></a>
                                 <div class="nav-item dropleft dropdown-item"><a data-toggle="dropdown" aria-expanded="false" class="nav-bar-links" href="#" style="color: #37434d;text-decoration: none;">Reference Materials</a>
-                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Templates &amp; Checklists</a></div>
+                                    <div class="dropdown-menu"><a class="dropdown-item disabled" href="#">Templates &amp; Checklists</a></div>
                                 </div>
                                 <div class="nav-item dropleft dropdown-item"><a data-toggle="dropdown" aria-expanded="false" class="nav-bar-links" href="#" style="color: #37434d;text-decoration: none;">Videos</a>
-                                    <div class="dropdown-menu"><a class="dropdown-item" href="#">Use Case Implementations</a><a class="dropdown-item" href="#">PoCs</a></div>
+                                    <div class="dropdown-menu"><a class="dropdown-item disabled" href="#">Use Case Implementations</a><a class="dropdown-item disabled" href="#">PoCs</a></div>
                                 </div>
                         </div>
                     </li>
@@ -111,7 +121,7 @@
                             <div class="jumbotron home-jumbo" data-aos="slide-right" data-aos-duration="1050" data-aos-delay="100" data-aos-once="true" style="background: rgba(248,249,250,0.48);max-height: 19rem;min-height: 15rem;max-width: 30rem;min-width: 10rem;padding-top: 3rem;border-radius: 10px;">
                                 <div class="inside-home-jumbo">
                                     <div class="hover-heading" style="background: rgb(0,0,140);border-radius: 10px;">
-                                        <h1 style="color: rgb(255,255,255);">Intelligent Automation</h1>
+                                        <h1 style="color: rgb(255,255,255);font-family: 'Bw Modelica LTI';font-weight: bold;">Intelligent Automation</h1>
                                     </div>
                                 </div>
                                 <p style="color: #232323;">Digitize the core of your business <br>with LTI's Intelligent Automation<br></p>
@@ -124,48 +134,48 @@
                 <header>
                     <div class="carousel slide carousel-fade" data-ride="carousel" data-aos="slide-up" data-aos-duration="1050" data-aos-delay="100" id="carousel-2">
                         <div class="carousel-inner">
-                            <div class="carousel-item active d-xl-flex align-items-xl-center">
+                            <div class="carousel-item active d-xl-flex justify-content-xl-center align-items-xl-center">
                                 <div style="padding: 20px;backdrop-filter: blur(10px);background-color: rgba(255,255,255,0.48);color: rgb(0,0,0);border-radius: 10px;">
-                                    <h2 style="color: rgb(0,0,140);font-family: ABeeZee, sans-serif;">Avasant mentions LTI</h2>
+                                    <h2 style="color: rgb(0,0,140);font-weight: 500;">Avasant mentions LTI</h2>
                                     <hr style="color: rgb(248,249,250);background: #56514b;">
-                                    <p style="color: #232323;font-family: ABeeZee, sans-serif;margin-bottom: 1rem;font-weight: normal;">LTI recognized in Avasant’s Intelligent Automation Services RadarView 2020 report as ‘Disruptors’<br></p>
+                                    <p style="color: #232323;margin-bottom: 1rem;font-weight: 300;">LTI recognized in Avasant’s Intelligent Automation Services RadarView 2020 report as ‘Disruptors’<br></p>
                                 </div>
                             </div>
-                            <div class="carousel-item d-xl-flex align-items-xl-center">
+                            <div class="carousel-item d-xl-flex justify-content-xl-center align-items-xl-center">
                                 <div style="padding: 20px;backdrop-filter: blur(10px);background-color: rgba(255,255,255,0.48);color: rgb(0,0,0);border-radius: 10px;">
-                                    <h2 style="color: rgb(0,0,140);font-family: ABeeZee, sans-serif;">Joint GTM with SAP iRPA</h2>
+                                    <h2 style="color: rgb(0,0,140);font-weight: 500;">Joint GTM with SAP iRPA</h2>
                                     <hr style="color: rgb(248,249,250);background: #56514b;">
-                                    <p style="color: #232323;font-family: ABeeZee, sans-serif;margin-bottom: 1rem;font-weight: normal;"><em>LTI joins hands with SAP to unleash the power of hyperautomation for its enterprise customers by co-innovating in the Intelligent Automation space, by leveraging the SAP IRPA platform.</em><br></p>
+                                    <p style="color: #232323;margin-bottom: 1rem;font-weight: 300;">LTI joins hands with SAP to unleash the power of hyperautomation for its enterprise customers by co-innovating in the Intelligent Automation space, by leveraging the SAP IRPA platform.</p>
                                 </div>
                             </div>
-                            <div class="carousel-item d-xl-flex align-items-xl-center">
+                            <div class="carousel-item d-xl-flex justify-content-xl-center align-items-xl-center">
                                 <div style="padding: 20px;backdrop-filter: blur(10px);background-color: rgba(255,255,255,0.48);color: rgb(0,0,0);border-radius: 10px;">
-                                    <h2 style="color: rgb(0,0,140);font-family: ABeeZee, sans-serif;">Data Driven Automation<br></h2>
+                                    <h2 style="color: rgb(0,0,140);font-weight: 500;">Data Driven Automation<br></h2>
                                     <hr style="color: rgb(248,249,250);background: #56514b;">
-                                    <p style="color: #232323;font-family: ABeeZee, sans-serif;margin-bottom: 1rem;font-weight: normal;">Started engagement with a large US bank to remediate End-User Computing using Xceptor platform to meet the regulatory commitments, reduced TAT &amp; cost of operations, enhanced Governance &amp; Controls, improved Data
+                                    <p style="color: #232323;margin-bottom: 1rem;font-weight: 300;">Started engagement with a large US bank to remediate End-User Computing using Xceptor platform to meet the regulatory commitments, reduced TAT &amp; cost of operations, enhanced Governance &amp; Controls, improved Data
                                         Quality &amp; Security and more.<br></p>
                                 </div>
                             </div>
-                            <div class="carousel-item d-xl-flex align-items-xl-center">
+                            <div class="carousel-item d-xl-flex justify-content-xl-center align-items-xl-center">
                                 <div style="padding: 20px;backdrop-filter: blur(10px);background-color: rgba(255,255,255,0.48);color: rgb(0,0,0);border-radius: 10px;">
-                                    <h2 style="color: rgb(0,0,140);font-family: ABeeZee, sans-serif;">Outcome Based Engagement<br></h2>
+                                    <h2 style="color: rgb(0,0,140);font-weight: 500;">Outcome Based Engagement<br></h2>
                                     <hr style="color: rgb(248,249,250);background: #56514b;">
-                                    <p style="color: #232323;font-family: ABeeZee, sans-serif;margin-bottom: 1rem;font-weight: normal;">Collaborating with a Global Asset Management Organization to transform existing back-office operations for their Wealth Administration AUS/NZ region using automation / technological intervention. This is an outcome
+                                    <p style="color: #232323;margin-bottom: 1rem;font-weight: 300;">Collaborating with a Global Asset Management Organization to transform existing back-office operations for their Wealth Administration AUS/NZ region using automation / technological intervention. This is an outcome
                                         based engagement where LTI will work towards delivering committed efficiency like reduction of AHT and percentage of transaction volume to be automated.<br></p>
                                 </div>
                             </div>
-                            <div class="carousel-item d-xl-flex align-items-xl-center">
+                            <div class="carousel-item d-xl-flex justify-content-xl-center align-items-xl-center">
                                 <div style="padding: 20px;backdrop-filter: blur(10px);background-color: rgba(255,255,255,0.48);color: rgb(0,0,0);border-radius: 10px;">
-                                    <h2 style="color: rgb(0,0,140);font-family: Conv_BwModelicaSS01-Regular;">New Partner Alliances<br></h2>
+                                    <h2 style="color: rgb(0,0,140);font-weight: 500;">New Partner Alliances<br></h2>
                                     <hr style="color: rgb(248,249,250);background: #56514b;">
-                                    <p style="color: #232323;font-family: ABeeZee, sans-serif;margin-bottom: 1rem;font-weight: normal;"><em>LTI expands its partner ecosystem by joining hands with AntWorks, Celonis &amp; Quale.&nbsp;</em><br></p>
+                                    <p style="color: #232323;margin-bottom: 1rem;font-weight: 300;">LTI expands its partner ecosystem by joining hands with AntWorks, Celonis &amp; Quale. </p>
                                 </div>
                             </div>
-                            <div class="carousel-item d-xl-flex align-items-xl-center">
+                            <div class="carousel-item d-xl-flex justify-content-xl-center align-items-xl-center">
                                 <div style="padding: 20px;backdrop-filter: blur(10px);background-color: rgba(255,255,255,0.48);color: rgb(0,0,0);border-radius: 10px;">
-                                    <h2 style="color: rgb(0,0,140);font-family: Conv_BwModelicaSS01-Regular;">Blue Prism Silver Partner<br></h2>
+                                    <h2 style="color: rgb(0,0,140);font-weight: 500;">Blue Prism Silver Partner<br></h2>
                                     <hr style="color: rgb(248,249,250);background: #56514b;">
-                                    <p style="color: #232323;font-family: ABeeZee, sans-serif;margin-bottom: 1rem;font-weight: normal;"><em>LTI jump starts&nbsp;its journey with Blue Prism on the partnership accreditation</em><br></p>
+                                    <p style="color: #232323;margin-bottom: 1rem;font-weight: 300;">LTI jump starts its journey with Blue Prism on the partnership accreditation</p>
                                 </div>
                             </div>
                         </div>
@@ -190,28 +200,28 @@
                 <div></div>
             </div>
             <div class="col-xs-12 col-sm-6 col-md-6 col-sm-pull-6" style="padding: 20px;background: #f8f9fa;color: rgb(0,0,0);">
-                <h1 style="color: rgb(0,0,140);font-family: ABeeZee, sans-serif;">Automation Ideology</h1>
+                <h1 style="color: rgb(0,0,140);font-family: 'Bw Modelica LTI';">Automation Ideology</h1>
                 <hr style="color: rgb(248,249,250);background: #56514b;">
-                <p style="color: rgb(55,67,77);font-weight: normal;font-family: ABeeZee, sans-serif;margin-bottom: 1rem;">Our Intelligent Automation ideology revolves around our strategy of ‘Powering the Breakaway enterprise’ by aligning our solutions / services / operating models with its 4 pillars namely –<br></p><ol class="idea-points" style="margin-left: 1rem;">
+                <p style="color: rgb(55,67,77);font-weight: normal;font-family: 'Bw Modelica';margin-bottom: 1rem;">Our Intelligent Automation ideology revolves around our strategy of ‘Powering the Breakaway enterprise’ by aligning our solutions / services / operating models with its 4 pillars namely –<br></p><ol class="idea-points" style="margin-left: 1rem;">
     <li><strong>Operate, to Transform (O2T):</strong> Digital workplace and business process transformation.</li>
     <li><strong>Data-driven Organization:</strong> Digital / Virtual Assistants, Data led Automation (Data intake, Unstructured / semi-structured data extraction, Data aggregation &amp; reporting automation).</li>
     <li><strong>Experience Transformation:</strong> Persona-driven automation of business functions.</li>
     <li><strong>Digitizing the core:</strong> Automation of horizontal &amp; vertical business functions.</li>
 </ol>
-                <div style="text-align:center"><button class="btn btn-light btn-animated" type="button" style="background: rgb(0,0,140);color: rgb(255,255,255);max-height: 36px;font-size: 16px;font-family: ABeeZee, sans-serif;border-style: none;">Read more</button></div>
+                <div style="text-align:center"><button class="btn btn-light btn-animated" type="button" style="background: rgb(0,0,140);color: rgb(255,255,255);max-height: 36px;font-size: 16px;border-style: none;">Read more</button></div>
             </div>
         </div>
     </section>
     <div class="container" id="our-cap">
         <div class="d-xl-flex justify-content-xl-center" style="margin-top: 2rem;">
-            <h1 style="color: rgb(65,62,62);margin-top: 20px;margin-bottom: 20px;font-family: ABeeZee, sans-serif;">Core Competency</h1>
+            <h1 style="color: rgb(65,62,62);margin-top: 20px;margin-bottom: 20px;font-family: 'Bw Modelica LTI';">Core Competency</h1>
         </div>
         <div class="row row-fitur" style="padding-bottom: 0px;">
             <div class="col-sm-4 col-md-4 col-xl-3 waves-effect kolom-a" style="padding-bottom: 0px;">
                 <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" class="fitur-a"><img src="assets/img/process%20automation%20pic.png" height="160px" style="filter: drop-shadow(15px 15px 15px #aaa);transform: scale(1.3);"></div>
                 <div class="separator-fitur" style="background: rgb(0,0,140);"></div>
                 <div>
-                    <h4 class="heading-fitur" style="color: rgb(0,0,140);font-weight: normal;">Process Automation</h4>
+                    <h4 class="heading-fitur" style="color: rgb(0,0,140);">Process Automation</h4>
                     <p class="paragraf-fitur">Automate mundane, repetitive, laborious tasks to minimize costs, increase efficiency, improve quality, transform UX and streamline business processes.<br></p>
                 </div>
             </div>
@@ -219,7 +229,7 @@
                 <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" class="fitur-a"><img src="assets/img/idp%20pic.png" height="160px" style="filter: drop-shadow(15px 15px 15px #aaa);transform: scale(1.6);"></div>
                 <div class="separator-fitur" style="background: rgb(0,0,140);"></div>
                 <div>
-                    <h4 class="heading-fitur" style="color: rgb(0,0,140);font-weight: normal;">Intelligent Document Processing</h4>
+                    <h4 class="heading-fitur" style="color: rgb(0,0,140);">Intelligent Document Processing</h4>
                     <p class="paragraf-fitur">Acquire and extract relevant data from structured and unstructured documents using cognitive data processing technologies combined with OCR.<br></p>
                 </div>
             </div>
@@ -227,7 +237,7 @@
                 <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" class="fitur-a"><img src="assets/img/chatbot%20pic.png" height="160px" style="filter: drop-shadow(15px 15px 15px #aaa);transform: scale(1.6);font-weight: normal;"></div>
                 <div class="separator-fitur" style="background: rgb(0,0,140);"></div>
                 <div>
-                    <h4 class="heading-fitur" style="color: rgb(0,0,140);font-weight: normal;">Conversational AI</h4>
+                    <h4 class="heading-fitur" style="color: rgb(0,0,140);">Conversational AI</h4>
                     <p class="paragraf-fitur">Combine both science and art to create intelligent digital assistants that incorporate context and personalization in a human to computer interaction. <br><br><br><br><br><br></p>
                 </div>
             </div>
@@ -235,7 +245,7 @@
                 <div data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" class="fitur-a"><img src="assets/img/task%20min%20pic-1.png" height="160px" style="filter: drop-shadow(15px 15px 15px #aaa);transform: scale(1.35);"></div>
                 <div class="separator-fitur" style="background: rgb(0,0,140);"></div>
                 <div>
-                    <h4 class="heading-fitur" style="color: rgb(0,0,140);font-weight: normal;">Task &amp; Process Mining</h4>
+                    <h4 class="heading-fitur" style="color: rgb(0,0,140);">Task &amp; Process Mining</h4>
                     <p class="paragraf-fitur">Data driven approach to gain insights into organizational processes and operations to standardize and optimize them.<br><br><br><br><br><br></p>
                 </div>
             </div>
@@ -245,36 +255,36 @@
         <div class="container">
             <div class="row d-flex d-xl-flex flex-column justify-content-center justify-content-xl-center countup text-center">
                 <div class="col-md-8 col-xl-8 offset-md-2 header-numbers">
-                    <h6 class="display-4" style="text-align: center;">Credentials</h6>
+                    <h6 class="display-4" style="text-align: center;font-family: 'Bw Modelica LTI';">Credentials</h6>
                 </div>
                 <div class="col">
                     <div class="row d-flex flex-row justify-content-around">
                         <div class="col-sm-6 col-md-3 col-xl-2 d-flex flex-column justify-content-center column">
-                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span class="bot-store-headings" style="font-family: Roboto, sans-serif;font-size: 1.7rem;text-align: center;font-weight: 300;">Clients <br>Globally</span></p>
+                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span class="bot-store-headings" style="font-size: 1.7rem;font-weight: 300;font-family: 'Bw Modelica LTI';text-align: center;">Clients <br>Globally</span></p>
                             <div>
                                 <p class="d-xl-flex justify-content-xl-center align-items-xl-center"> <span class="count">75</span><span><i class="fas fa-plus" style="font-size: 24px;"></i></span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3 col-xl-2 d-flex flex-column justify-content-center column">
-                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: Roboto, sans-serif;font-size: 1.7rem;text-align: center;font-weight: 300;">Sub Process<br>Automated</span></p>
+                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: 'Bw Modelica LTI';font-size: 1.7rem;text-align: center;font-weight: 300;">Sub Process<br>Automated</span></p>
                             <div>
                                 <p class="d-xl-flex justify-content-xl-center align-items-xl-center"> <span class="count">3500</span><span><i class="fas fa-plus" style="font-size: 24px;"></i></span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3 col-xl-2 d-flex flex-column justify-content-center column">
-                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: Roboto, sans-serif;font-size: 1.7rem;text-align: center;font-weight: 300;">Bots <br>Deployed</span></p>
+                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: 'Bw Modelica LTI';font-size: 1.7rem;text-align: center;font-weight: 300;">Bots <br>Deployed</span></p>
                             <div>
                                 <p class="d-xl-flex justify-content-xl-center align-items-xl-center"> <span class="count">2700</span><span><i class="fas fa-plus" style="font-size: 24px;"></i></span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3 col-xl-2 d-flex flex-column justify-content-center column">
-                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: Roboto, sans-serif;font-size: 1.7rem;text-align: center;font-weight: 300;">Skilled <br>Personnel</span></p>
+                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: 'Bw Modelica LTI';font-size: 1.7rem;text-align: center;font-weight: 300;">Skilled <br>Personnel</span></p>
                             <div>
                                 <p class="d-xl-flex justify-content-xl-center align-items-xl-center"> <span class="count">1700</span><span><i class="fas fa-plus" style="font-size: 24px;"></i></span></p>
                             </div>
                         </div>
                         <div class="col-sm-6 col-md-3 col-xl-2 d-flex flex-column justify-content-center column">
-                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: Roboto, sans-serif;font-size: 1.7rem;text-align: center;font-weight: 300;">Bot Store Contributions<br></span></p>
+                            <p class="d-xl-flex justify-content-xl-center align-items-xl-center" style="height: 100px;width: auto;"><span style="font-family: 'Bw Modelica LTI';font-size: 1.7rem;text-align: center;font-weight: 300;">Bot Store Contributions<br></span></p>
                             <div>
                                 <p class="d-xl-flex justify-content-xl-center align-items-xl-center"> <span class="count">100</span><span><i class="fas fa-plus" style="font-size: 24px;"></i></span></p>
                             </div>
@@ -306,7 +316,7 @@
     </section>
     <section id="bus-solns" style="margin-left: 50px;padding-top: 1.5rem;">
         <div class="intro">
-            <h2 class="text-center" style="margin-bottom: 1.5rem;color: rgb(0,0,140);font-family: ABeeZee, sans-serif;font-size: 3rem;">Business Solutions</h2>
+            <h2 class="text-center" style="margin-bottom: 1.5rem;color: rgb(0,0,140);font-family: 'Bw Modelica LTI';font-size: 3rem;">Business Solutions</h2>
         </div>
         <div class="container d-flex d-xl-flex flex-column" style="margin-top: 3rem;">
             <div class="row d-flex flex-row justify-content-around" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true" style="margin-bottom: 2rem;/*column-gap: 5px;*/">
@@ -580,7 +590,7 @@
     <div id="client-base" class="article-list" style="padding-top: 10px;">
         <div class="container">
             <div class="d-xl-flex justify-content-xl-center intro" style="padding-top: 1rem;">
-                <h1 class="text-center" style="color: rgb(65,62,62);font-family: ABeeZee, sans-serif;">Key Clients</h1>
+                <h1 class="text-center" style="color: rgb(65,62,62);font-family: 'Bw Modelica LTI';">Key Clients</h1>
             </div>
             <div class="row articles">
                 <div class="col">
@@ -726,7 +736,7 @@
     <div id="industry-all" class="article-list" style="margin-top: 0px;">
         <div class="container">
             <div class="d-xl-flex justify-content-xl-center intro" style="padding-top: 1rem;">
-                <h1 class="text-center" style="color: rgb(65,62,62);font-family: ABeeZee, sans-serif;">Our Partners</h1>
+                <h1 class="text-center" style="color: rgb(65,62,62);font-family: 'Bw Modelica LTI';">Our Partners</h1>
             </div>
             <div class="row articles">
                 <div class="col">
@@ -852,7 +862,7 @@
     </div>
     <div class="container" id="tech-stack">
         <div class="d-xl-flex justify-content-xl-center">
-            <h1 style="color: rgb(0,0,140);font-family: ABeeZee, sans-serif;">Tech We Use</h1>
+            <h1 style="color: rgb(0,0,140);font-family: 'Bw Modelica LTI';">Tech We Use</h1>
         </div>
         <div class="row row-fitur" style="/*filter: blur(20px);*/">
             <div class="col d-xl-flex justify-content-xl-center"><img src="assets/img/Picture1.png" width="80%"></div>
@@ -860,7 +870,7 @@
     </div>
     <section id="meet-team">
         <section class="d-flex flex-column justify-content-center card-section-imagia" style="background: rgb(248,249,250);">
-            <h1 style="color: rgb(49,52,55);font-family: ABeeZee, sans-serif;">Meet the Team</h1>
+            <h1 style="color: rgb(49,52,55);font-family: 'Bw Modelica LTI';">Meet the Team</h1>
             <h2>The FOLKS behind our Success</h2>
             <div class="container">
                 <div class="row d-flex flex-row justify-content-around flex-wrap" style="padding-left: 3rem;">
@@ -1126,7 +1136,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 py-4 text-center mx-auto">
-                    <h6 class="display-4" style="font-family: ABeeZee, sans-serif;">Resources</h6>
+                    <h6 class="display-4" style="font-family: 'Bw Modelica LTI';">Resources</h6>
                 </div>
             </div>
             <div class="px-4 bg-white rounded shadow" style="margin-bottom: 1rem;padding-top: 1.5rem!important;">
@@ -1860,6 +1870,7 @@
     <script src="assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.2.0/aos.js"></script>
     <script src="assets/js/-Animated-numbers-section-BS4-.js"></script>
+    <script src="assets/js/-persist-min.js"></script>
     <script src="assets/js/Animated-numbers-section.js"></script>
     <script src="assets/js/Animated-Type-Heading.js"></script>
     <script src="assets/js/Bold-BS4-Jumbotron-with-Particles-js.js"></script>

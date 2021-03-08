@@ -275,3 +275,257 @@
 .cover span {
 }
 
+.search-btn-indus {
+  color: white;
+  float: right;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 2s;
+  text-decoration: none!important;
+}
+
+.fas.fa-search {
+  background: white;
+  font-size: 14px;
+  color: rgb(0,0,140);
+}
+
+.search-input-indus {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: white;
+  font-size: 14px;
+  transition: 0.4s;
+  line-height: 30px;
+  width: 0;
+  caret-color: white;
+}
+
+.search-box-indus:hover > .search-input-indus {
+  width: 250px;
+  padding: 0 15px;
+}
+
+.search-box-use:hover > .search-input-indus {
+  width: 250px;
+  padding: 0 15px;
+}
+
+.search-box-indus {
+  position: fixed;
+  top: 20%;
+  right: 5%;
+  transform: translate(-0%,-50%);
+  background: rgb(0,0,140);
+  height: 40px;
+  border-radius: 50px;
+  padding: 5px;
+  z-index: 99;
+}
+
+.search-box-use {
+  /*position: fixed;*/
+  /*top: 20%;*/
+  /*right: 5%;*/
+  /*transform: translate(-0%,60%);*/
+  background: rgb(0,0,140);
+  height: 40px;
+  border-radius: 50px;
+  padding: 5px;
+  z-index: 99;
+}
+
+#success-stories > .card-columns {
+}
+
+#success-stories > .card-columns {
+}
+
+#case-studies-ind .card-footer a {
+  background: rgb(246,209,177);
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-weight: 600;
+  border-style: none;
+  box-shadow: 0 3px 15px rgb(226 212 186 / 70%);
+}
+
+#pov-ind .card-footer a {
+  background: rgb(246,209,177);
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-weight: 600;
+  border-style: none;
+  box-shadow: 0 3px 15px rgb(226 212 186 / 70%);
+}
+
+#whitepaper-ind .card-footer a {
+  background: rgb(246,209,177);
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-weight: 600;
+  border-style: none;
+  box-shadow: 0 3px 15px rgb(226 212 186 / 70%);
+}
+
+#success-stories-1 .card-footer a {
+  background: rgb(242,192,189);
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 0 3px 15px rgb(242 192 189 / 70%);
+}
+
+#myUL .card-footer a {
+  background: rgb(197,216,233);
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-weight: bold;
+  border-style: none;
+  box-shadow: 0 3px 15px rgb(197 216 233 / 70%);
+}
+
+#success-stories .card-footer a {
+  background: rgb(226,233,242);
+  color: rgb(0,0,0);
+  font-size: 16px;
+  font-weight: 600;
+  border-style: none;
+  box-shadow: 0 3px 15px rgb(226 233 242 / 70%);
+}
+
+#success-stories .card-footer a:hover {
+  box-shadow: 0 3px 15px rgb(226 233 242 / 70%);
+  transform: translate3d(0px,0px,0.15rem);
+}
+
+#success-stories .card-footer div:nth-child(even) {
+  margin-top: 0.30rem;
+}
+
+#success-rows > .col:nth-child(even) {
+  margin-top: 1rem;
+}
+
+#success-stories .card:nth-child(n + 5) {
+  /*margin-top: 1rem;*/
+}
+
+#myUL .card-header {
+  background: linear-gradient(90deg, rgb(48,50,143), rgb(6,184,240));
+  /*background-image: linear-gradient(60deg, #3d3393 0%, #2b76b9 37%, #2cacd1 65%, #35eb93 100%);*/
+}
+
+#success-stories .card-header {
+  background: linear-gradient(90deg, rgb(48,50,143), rgb(6,184,240));
+  font-size: 18px;
+  /*background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);*/
+  background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+  /*background: linear-gradient(90deg, rgb(236,185,89), rgb(243,129,33)), rgb(244,130,31);*/
+}
+
+#case-studies-ind .card:nth-child(n + 5) {
+  margin-top: 1rem;
+}
+
+#pov-ind .card:nth-child(n + 5) {
+  margin-top: 1rem;
+}
+
+#whitepaper-ind .card:nth-child(n + 5) {
+  margin-top: 1rem;
+}
+
+#success-stories-1 .card:nth-child(n + 5) {
+  margin-top: 1rem;
+}
+
+#myUL .card:nth-child(n + 5) {
+  margin-top: 1rem;
+}
+
+#myUL .card:nth-child(3n + 2) {
+  /*margin-right: 2.25rem;*/
+  /*margin-left: 2.25rem;*/
+}
+
+#success-stories-1 .card {
+  max-width: 20vw;
+  transition: box-shadow 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+#myUL .card {
+  width: 18vw;
+  transition: box-shadow 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+#success-stories .card {
+  max-width: 20vw;
+  transition: box-shadow 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+#myUL .card {
+  max-width: 18vw;
+  transition: box-shadow 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+#myUL .card:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#success-stories .card:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#pov-ind .card:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#whitepaper-ind .card:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#case-studies-ind .card:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#case-studies-ind .card:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+#success-stories-1 .card:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+}
+
+.search-input-indus::placeholder {
+  color: white;
+  opacity: 0.80;
+}
+
+#carousel-2 > .carousel-inner > .carousel-item > div {
+  max-width: 45rem;
+}
+
+.card-title {
+  margin-bottom: 1.25rem;
+}
+

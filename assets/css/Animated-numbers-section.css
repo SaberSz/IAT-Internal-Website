@@ -65,3 +65,89 @@
   color: rgb(216,216,216);
 }
 
+.industry-writeup {
+  color: rgb(0,0,140);
+}
+
+.hotspots-carr .carousel-item {
+  height: 80vh!important;
+}
+
+#cpov-ind .card {
+  max-width: 20vw;
+}
+
+#whitepaper-ind .card {
+  max-width: 20vw;
+  transition: box-shadow 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+#pov-ind .card {
+  max-width: 20vw;
+  transition: box-shadow 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+#case-studies-ind .card {
+  max-width: 20vw;
+  transition: box-shadow 0.5s;
+  border-radius: 10px;
+  box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+}
+
+#use-cases-container {
+  /*margin-right: 7rem;*/
+  /*margin-left: 7rem;*/
+}
+
+@media (max-width: 1200px) {
+  #use-cases-container {
+    /*margin-right: 2rem;*/
+    /*margin-left: 2rem;*/
+  }
+}
+
+#dashboard-links a {
+  background: rgb(226,233,242);
+  color: rgb(0,0,0);
+  font-size: 14px;
+  font-weight: 600;
+  border-style: none;
+  box-shadow: 0 3px 15px rgb(220 226 233/ 70%);
+  margin-left: 0.5rem;
+  margin-right: 0.25rem;
+  border-radius: 7px;
+}
+
+.rounded-new {
+  border-radius: .75rem;
+}
+
+.shadow-new:hover {
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034), 0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06), 0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086), 0 100px 80px rgba(0, 0, 0, 0.12);
+  /*box-shadow: 0 10px 50px 0 rgba(0,0,0,0.26);*/
+}
+
+.shadow-new {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  transition: box-shadow .5s ease;
+}
+
+#soln-highs img {
+  transition: filter 0.4s ease;
+}
+
+#soln-highs h6 {
+  transition: all 0.4s ease;
+}
+
+#soln-highs .col-xl-5:hover {
+  color: #000000;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px #00008c;
+  filter: drop-shadow(5px 5px 5px #777);
+}
+
